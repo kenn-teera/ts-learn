@@ -20,3 +20,7 @@ console.log(total(10,20))     // 10 true
 console.log(total("10","20")) // 1020 wrong
 console.log(total(true,true)) // 1 wrong
 ```
+
+```bash
+tcs <file> #for convert form Typescript to JavaScript
+```
