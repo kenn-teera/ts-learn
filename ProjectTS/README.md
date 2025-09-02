@@ -15,3 +15,9 @@ tsconfig.json (Good to know)
 
 how to work ?
 src/app.ts -> compile -> dist/app.js
+
+watch mode
+```bash
+tsc -w 
+tsc -watch
+```
