@@ -22,6 +22,8 @@ function formatNumber(num: number) { //default of argument is type any and it's 
   return num.toFixed(2);
 }
 
-let amount: any = "50.1234"
+let amount: unknown = "50.1234"
 amount = 50.1234
-console.log(formatNumber(amount))
+if (typeof amount === "number") {
+  console.log(formatNumber(amount))
+}

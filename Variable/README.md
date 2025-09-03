@@ -21,13 +21,15 @@ let isWorking:boolean = false;
 
 ## Any, Unknown
 
-Any can be any type
+Any can be any type and doesn't check typeof variable
 
 ```javascript
 let myVar:any = "String"
 myVar         = 10; //number
 myVar         = true; //boolean
 ```
+
+Unknown check typeof variable
 
 ```javascript
 let myVar:unknown = "string"

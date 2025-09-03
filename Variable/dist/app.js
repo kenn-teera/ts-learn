@@ -21,4 +21,6 @@ function formatNumber(num) {
 }
 let amount = "50.1234";
 amount = 50.1234;
-console.log(formatNumber(amount));
+if (typeof amount === "number") {
+    console.log(formatNumber(amount));
+}
