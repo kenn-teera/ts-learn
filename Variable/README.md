@@ -10,11 +10,28 @@ string => "This is String"
 
 ## const, let
 
-const : cann't change data  
+const : can't change data  
 let   : can change data  
 
 ```javascript
 let fname:string = "This is String";
 let age:number = 23;
 let isWorking:boolean = false;
+```
+
+## Any, Unknown
+
+Any can be any type
+
+```javascript
+let myVar:any = "String"
+myVar         = 10; //number
+myVar         = true; //boolean
+```
+
+```javascript
+let myVar:unknown = "string"
+if(typeof myVar === <string>){
+// what to do ?
+}
 ```
