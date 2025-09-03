@@ -37,3 +37,8 @@ if(typeof myVar === <string>){
 // what to do ?
 }
 ```
+
+## Type Assertion
+
+1. as
+2. <variable - na>
